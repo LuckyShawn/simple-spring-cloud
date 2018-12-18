@@ -1,0 +1,12 @@
+server:
+  port: 8763
+
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: eureka-client #这个很重要，服务间的调用标识都是根据这个name
+
+
