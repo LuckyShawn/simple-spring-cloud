@@ -2,9 +2,11 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-hystrix" charset="UTF-8" />
   </component>
 </project>
