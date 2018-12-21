@@ -1,12 +1,12 @@
 server:
-  port: 8766
+  port: 8767
 spring:
   application:
-    name: ribbon-hystrix
+    name: feign-hystrix
 eureka:
   client:
     service-url:
      defaultZone: http://localhost:8761/eureka/
-ribbon:
-  eureka:
+feign:
+  hystrix:
     enabled: true

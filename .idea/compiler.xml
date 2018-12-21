@@ -10,7 +10,9 @@
         <module name="consumer-ribbon" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="feign-hystrix" />
         <module name="ribbon-hystrix" />
+        <module name="server-zuul" />
       </profile>
     </annotationProcessing>
   </component>

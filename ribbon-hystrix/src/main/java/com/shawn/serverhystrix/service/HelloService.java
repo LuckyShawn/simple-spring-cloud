@@ -16,6 +16,7 @@ public class HelloService {
     @Autowired
     private RestTemplate restTemplate;
 
+    //一旦调用服务方法失败并抛出了错误信息后，会自动调用@HystrixCommand标注好的fallbackMethod调用类中的指定方法
     @HystrixCommand(fallbackMethod = "helloError")
     public String hello(String name){
         return restTemplate.getForObject("http://eureka-client/hello?name="+name,String.class);
